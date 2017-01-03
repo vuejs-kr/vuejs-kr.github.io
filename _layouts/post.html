@@ -8,7 +8,7 @@ layout: default
   <center>  <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time></p>
     {% if page.author %}
      <div class="">
-       <center><p ><strong><span class="authorKeyword">Author</span><span class="small-site-title"> <h2 style="letter-spacing: 3px !important;
+       <center><p ><strong><span class="authorKeyword">작성자</span><span class="small-site-title"> <h2 style="letter-spacing: 3px !important;
        text-transform: uppercase !important;">{{page.author}}</h2></span></strong></p></center>
 
      </div>
@@ -18,8 +18,9 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
-  </div>
 
+    <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type ='text/javascript'>kofiwidget2.init('Buy Me a Coffee', '#46b798', 'A316F4N');kofiwidget2.draw();</script> 
+  </div>
   <footer class="postNavigation">
   {% if page.previous.url %}
     <a class="postPrev" href="{{page.previous.url}}">

@@ -146,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-    color: #aaa !important;
+    color: #46B784 !important;
     text-decoration: none;
 
     &:visited {
@@ -294,6 +294,7 @@ pre {
   font-size: 18px;
   font-weight: 300;
   padding-top: 0;
+  margin-top: 20px;
 }
 .home{
   padding-bottom: 5em;
@@ -569,7 +570,7 @@ pre {
   margin-bottom: $spacing-unit;
 }
 .post-title {
-  font-size: 62px;
+  font-size: 40px;
 
   text-align: center;
   font-family: "PT Sans";
@@ -582,7 +583,7 @@ pre {
   margin-bottom: $spacing-unit;
   padding-bottom: 3em !important;
   p {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
   h2 {
     font-size: 32px;
