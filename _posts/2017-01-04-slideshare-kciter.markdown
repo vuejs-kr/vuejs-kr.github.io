@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tour of Vue.js"
-date:   2016-01-04 19:45:31 +0530
+date:   2017-01-04 19:45:31 +0530
 categories: update
 author: "@kciter Lee Sun-Hyoup"
 excerpt: "@kciter 님께서 공유해주신 슬라이드 입니다."
