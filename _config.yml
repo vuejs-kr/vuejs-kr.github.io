@@ -18,3 +18,5 @@ paginate: 5
 gems: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
+highlighter: rouge
+kramdown.syntax_highlighter_opts.block.line_numbers: true
