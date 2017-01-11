@@ -1,9 +1,8 @@
 ---
-layout: archive
+layout: page
 title: Snippets
 permalink: /snippets/
 tagline: ""
-category: ""
 ---
 
 ## 이 곳은..
