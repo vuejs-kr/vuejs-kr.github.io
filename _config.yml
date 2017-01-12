@@ -1,26 +1,26 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Vue.js 한국어 사용자 모임
+email:
+author:      ChangJoo Park
+description: "Vue.js 관련 한국어 자료를 보관하는 곳 입니다."
 baseurl:     ""
-url:         "http://pixyll.com"
-date_format: "%b %-d, %Y"
+url:         "https://vuejs-kr.github.com"
+date_format: "%Y년 %m월 %d일 작성"
 
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
-google_tag_manager:
+google_analytics: UA-89743016-1
+google_tag_manager: GTM-NWV4BSP
 # Bing services
 bing_verification:
 
 # Optional features
-animated:             true
+animated:             false
 show_related_posts:   false
 show_post_footers:    false
-show_social_icons:    false
+show_social_icons:    true
 ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
@@ -42,7 +42,7 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: vuejs-kr
 bitbucket_username:
 stackoverflow_id:
 twitter_username:
@@ -59,8 +59,8 @@ flattr_button:
 # Post sharing icons
 show_sharing_icons: false
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
+share_facebook: true
+share_twitter: true
 share_googleplus: false
 share_linkedin: false
 share_digg: false
@@ -71,8 +71,8 @@ share_hackernews: false
 
 text:
   pagination:
-    newer: 'Newer'
-    older: 'Older'
+    newer: '이전'
+    older: '다음'
   share_buttons:
     text:         'Share this post!'
     facebook:     'Share on Facebook'
@@ -85,9 +85,9 @@ text:
     stumbleupon:  'Share on StumbleUpon'
     hackernews:   'Share on Hacker News'
   post:
-    updated:        'Updated'
-    minute_read:    'minute read'
-    related_posts:  'Related Posts'
+    updated:        '업데이트 됨'
+    minute_read:    '분 정도의 길이'
+    related_posts:  '연관 포스트'
   index:
     coming_soon: 'Coming soon...'
   contact:
@@ -100,7 +100,7 @@ text:
       sent:     'Message sent!'
       error:    'Error!'
   thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-  og_locale: 'en_US'
+  og_locale: 'ko_KR'
 
 # Build settings
 markdown:     kramdown
