@@ -4,7 +4,7 @@ email:
 author:      ChangJoo Park
 description: "Vue.js 관련 한국어 자료를 보관하는 곳 입니다."
 baseurl:     ""
-url:         "https://vuejs-kr.github.com"
+url:         "https://vuejs-kr.github.io"
 date_format: "%Y년 %m월 %d일 작성"
 
 # Google services
