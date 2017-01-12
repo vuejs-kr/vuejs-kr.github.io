@@ -20,6 +20,11 @@ p {
   -moz-osx-font-smoothing: grayscale;
 }
 
+p code {
+  transform: none;
+  text-shadow: none;
+}
+
 small,
 .small {
   font-size: 0.707rem;
