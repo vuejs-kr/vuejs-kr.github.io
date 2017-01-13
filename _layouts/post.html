@@ -9,7 +9,13 @@ layout: default
 
 <div class="post-header mb2">
   <h1>{{ page.title }}</h1>
-  <span class="post-meta">{{ page.date | date: site.date_format }}</span><br>
+  <span class="post-meta">{{ page.date | date: site.date_format }}</span> <br>
+  <span class="post-meta">
+    {% if page.author %}
+      작성자 : {{page.author}} <br>
+    {% endif %}
+  </span>
+
   {% if page.update_date %}
     <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span><br>
   {% endif %}
