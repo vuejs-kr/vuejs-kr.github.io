@@ -33,21 +33,21 @@ MyPlugin.install = function (Vue, options) {
   Vue.myGlobalMethod = function () {
     // 필요한 로직 ...
   }
-  
+
   Vue.directive('my-directive', {
     bind (el, binding, vnode, oldVnode) {
       // 필요한 로직 ...
     }
     ...
   })
-  
+
   Vue.mixin({
     created: function () {
       // 필요한 로직 ...
     }
     ...
   })
-  
+
   Vue.prototype.$myMethod = function (options) {
     // 필요한 로직 ...
   }
@@ -249,4 +249,4 @@ AlertModal.show('알림', 'Hello, Vue.js!')
 사용자는 여기서 사용할 것과 사용하지 않을 것을 init할때 설정할 수 있습니다.
 
 ## 마치며..
-Vue.js는 아직 성장중은 오픈소스입니다. 만약 플러그인을 제작했다면 Vue.js 커뮤니티의 발전을 위해서 공개해보는건 어떨까요? :)
+Vue.js는 아직 성장중인 오픈소스입니다. 만약 플러그인을 제작했다면 Vue.js 커뮤니티의 발전을 위해서 공개해보는건 어떨까요? :)
