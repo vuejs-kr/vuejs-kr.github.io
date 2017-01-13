@@ -2,7 +2,7 @@
 layout: page
 title: 한국어 번역 프로젝트 목록
 permalink: /translated-in-korean/
-tagline: ""
+tags: korean
 ---
 
 Github에 공개된 프로젝트 중 한글 번역된 프로젝트 입니다.
