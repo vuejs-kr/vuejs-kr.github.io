@@ -4,12 +4,16 @@ title: 코드조각
 permalink: /snippets/
 tags: about
 ---
-## 이 곳은..
+### 이 곳은..
 
 코드 조각을 모으는 곳 입니다. 보통 반복적으로 같은 질문을 하게 됩니다. 이를 해결하는 시간과 노력을 줄이기 위해 만들었습니다.
 실제 동작하는 최소 단위의 코드 조각을 보관하고 있습니다.
 
-## 목록
+### 참여 방법
+Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 작은 예제를 만들면 됩니다. 그리고 [Github 이슈](https://github.com/vuejs-kr/vuejs-kr.github.io/issues/14)에 남겨주시거나 풀리퀘스트를 남겨주시면 추가하겠습니다.
+
+
+### 목록
 
 - [vuex mutations 변수 대입 문제](https://jsfiddle.net/gongzza/hhb248bx/) - [@gongzza](https://github.com/gongzza/)
 - [v-model의 한글 사용 문제을 v-on을 사용한 해결법](https://jsfiddle.net/kciter/tLz9gt4o/) - [@kciter](https://github.com/kciter/)
