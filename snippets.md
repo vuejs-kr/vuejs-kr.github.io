@@ -15,4 +15,4 @@ tags: about
 - [v-model의 한글 사용 문제을 v-on을 사용한 해결법](https://jsfiddle.net/kciter/tLz9gt4o/) - [@kciter](https://github.com/kciter/)
 - [v-model 사용시 한글 사용 문제](https://jsfiddle.net/kciter/b5qhxbfh/) - [@kciter](https://github.com/kciter/)
 - [vue-router 중첩 라우팅 예제](https://jsfiddle.net/changjoo_park/z4ja4wtx/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
-- [vuejs에서 이미지적용시 비동기로 inline style 적용 예제](https://jsfiddle.net/devjin0617/fxyyr1fx/4/) - [@devjin0617](https://github.com/devjin0617)
+- [vuejs에서 이미지적용시 비동기로 inline style 적용 예제](https://jsfiddle.net/devjin0617/fxyyr1fx/) - [@devjin0617](https://github.com/devjin0617)
