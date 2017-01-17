@@ -20,3 +20,5 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 - [v-model 사용시 한글 사용 문제](https://jsfiddle.net/kciter/b5qhxbfh/) - [@kciter](https://github.com/kciter/)
 - [vue-router 중첩 라우팅 예제](https://jsfiddle.net/changjoo_park/z4ja4wtx/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
 - [vuejs에서 이미지적용시 비동기로 inline style 적용 예제](https://jsfiddle.net/devjin0617/fxyyr1fx/) - [@devjin0617](https://github.com/devjin0617)
+- [조건에 따라 다르게 출력되는 레이아웃](https://jsfiddle.net/changjoo_park/L9L0ogpt/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
+- [빈 Vue 인스턴스를 이벤트버스로 사용하기](https://jsfiddle.net/changjoo_park/d8qdz3za/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
