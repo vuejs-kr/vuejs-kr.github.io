@@ -42,6 +42,7 @@ body {
 
 ## 후처리기(Post-Processor)
 **후처리기**는 마찬가지로 이름 처럼 CSS를 작성한 **후에 처리하는** 도구입니다. 주로 후처리기는 `PostCSS`라는 것을 사용합니다. `PostCSS`의 주요한 플러그인 중 하나인 Autoprefixer에 대해서 소개해드리겠습니다. 흔히 CSS를 작성할 때에는 크로스 브라우징을 염두해두고 작성합니다.
+
 ```css
 .flexbox {
 	display: -webkit-box;
@@ -50,8 +51,10 @@ body {
 	display: flex;
 }
 ```
+
 이러한 작업은 SASS, LESS와 같은 전처리기가 등장하면서 조금 더 편해졌습니다.
-```less
+
+```scss
 @mixin flexbox() {
 	display: -webkit-box;
 	display: -webkit-flex;
@@ -63,6 +66,7 @@ body {
 	@include flexbox;
 }
 ```
+
 위 처럼 미리 Mixin을 만들어 둔 후 include하는 방식을 통해 중복된 작업을 줄일 수 있었습니다. 이렇게 작성하면 기존 CSS를 작성하는 것보다 간단하지만 두 가지 신경써야할 점이 있습니다. 첫 번째는 브라우저의 지원 상황을 개발자가 알고 있어야합나다. 두 번째는 개발자의 실수로 빼먹을 수 있다는 점입니다. 만약 후처리기를 사용한다면 이런 문제를 쉽게 해결 할 수 있습니다.
 
 ```css
@@ -79,6 +83,7 @@ body {
 	display: flex;
 }
 ```
+
 보시다시피 후처리기를 사용하면 별다른 작업없이 알아서 vender prefix를 더해줍니다.
 
 ## `vue-loader`를 통해 가져오기
@@ -86,20 +91,24 @@ body {
 
 ### 전처리기 추가하기
 먼저 전처리기를 추가해봅시다. Vue에서 전처리기를 사용하는 방법은 매우 간단합니다. `*.vue` 파일의 스타일 블럭에 `lang='scss'` 속성을 추가헤주세요. 그 후에 노드 서버를 실행시켜봅시다.
+
 ```
 ERROR in ./src/App.vue
 Module not found: Error: Cannot resolve module 'sass-loader' in /path/src
  @ ./src/App.vue 5:0-170
 ```
+
 그렇다면 위와 같은 에러를 볼 수 있습니다. 전처리기를 사용하기 위해서는 적절한 Webpack 로더를 설치해야합니다. 여기서는 SCSS를 사용하기 위해 `sass-loader`와 `node-sass`를 설치하겠습니다.
 
 ```bash
 $ npm install sass-loader node-sass --save-dev
 ```
+
 설치가 완료된 후 새로고침을 통해 확인해보면 (혹은 핫 리로딩에 의해) 적용이 완료된 화면을 볼 수 있습니다!
 
 ### 후처리기 추가하기
 후처리기를 추가하는 방법은 전처리기를 추가하는 방법보다 아주 조금 더 복잡합니다. 왜냐하면 Webpack 설정을 수정해야하기 때문입니다. 먼저 Webpack 설정을 확인해봅시다. 만약 `vue-cli`로 `webpack` 템플릿을 불러왔을 경우 build 디렉토리에 `webpack.base.conf.js` 파일을 확인해봅시다.
+
 ```js
 vue: {
   loaders: utils.cssLoaders({ sourceMap: useCssSourceMap }),
@@ -110,6 +119,7 @@ vue: {
   ]
 }
 ```
+
 사실 `vue-cli`를 이용해서 `webpack` 템플릿을 불러오면 이미 `autoprefixer` 플러그인이 붙어있습니다. 다음 [링크](https://vue-loader.vuejs.org/kr/features/postcss.html)를 확인하시면 PostCSS 플러그인을 불러오는 방법에 대해서 더 자세히 알 수 있습니다.
 
 ## 마지막으로...
