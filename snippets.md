@@ -24,4 +24,4 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 - [빈 Vue 인스턴스를 이벤트버스로 사용하기](https://jsfiddle.net/changjoo_park/d8qdz3za/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
 - [Vue.set과 this.$set 사용 예제](https://jsfiddle.net/changjoo_park/9r01601h/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
 - [Vue.$nextTick을 이용한 UI갱신 예제](https://jsfiddle.net/devjin0617/pgscu4q3/) - [@devjin0617](https://github.com/devjin0617)
-- [글로벌 / 로컬 컴포넌트 사용 방법](https://jsfiddle.net/changjoo_park/dh2u3bye/) - - [@changjoo-park](https://github.com/ChangJoo-Park/)
+- [글로벌 / 로컬 컴포넌트 사용 방법](https://jsfiddle.net/changjoo_park/dh2u3bye/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
