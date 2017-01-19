@@ -104,3 +104,18 @@ textarea {
   outline: none;
   box-shadow: 0 0 2px rgba($blue, .5);
 }
+.search-form {
+  margin-bottom: 10px;
+}
+#search-box {
+  box-sizing: border-box;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #000;
+  outline: none;
+  transition: border-color 0.3s ease-in-out, border-width 0.1s ease-in-out;
+}
+
+#search-box:focus {
+  border-bottom: 3px solid #41B883;
+}
