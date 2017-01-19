@@ -37,7 +37,7 @@ Vue.js 를 익히면서, 항상 공식 [gitter](https://gitter.im/vuejs/vue?utm_
 
 ![공식트위터 한국어](https://pbs.twimg.com/media/CzrVnByXAAER-Qz.jpg)
 
-번역 이후 많은 변화가 있었습니다 [한국어 사용자 채팅방](https://gitter.im/vuejs-kr/vuejs-kr?utm_source=share-link&utm_medium=link&utm_campaign=share-link)에도 30여분이 넘게 들어오셨습니다. 처음 혼자 아둥바둥할 때의 30배가 넘는 발전입니다.
+번역 이후 많은 변화가 있었습니다 [한국어 사용자 채팅방](https://vuejs-korea.slack.com/shared_invite/MTI2MzI1ODQ4NTYwLTE0ODQyNzI4MDQtMjQ5ZTE2NDVmMw)에도 30여분이 넘게 들어오셨습니다. 처음 혼자 아둥바둥할 때의 30배가 넘는 발전입니다.
 
 ![1월1일부터 1월 3일](http://i.imgur.com/wrfBLIg.png)
 
