@@ -67,7 +67,7 @@ JSFiddle을 사용하다 `vue-cli`를 사용하기 시작하면 많은 디렉터
 - [vue.js 공식 홈페이지](https://vuejs.org/)
 - [vue.js 한국어 홈페이지](https://kr.vuejs.org/)
 - [vue.js 공식 채팅](https://gitter.im/vuejs/vue?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
-- [vue.js 한국어 사용자 채팅](https://gitter.im/vuejs-kr/vuejs-kr?utm_source=share-link&utm_medium=link&utm_campaign=share-link)
+- [vue.js 한국어 사용자 채팅](https://vuejs-korea.signup.team/)
 - [vue.js 공식 조직](https://github.com/vuejs)
 - [vue.js 한국어 조직](https://github.com/vuejs-kr)
 - [awesome vue](https://github.com/vuejs/awesome-vue)
