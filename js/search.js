@@ -30,6 +30,12 @@
     }
   }
 
+  function trimmerEnKo(token) {
+    return token
+      .replace(/^[^\w가-힣]+/, '')
+      .replace(/[^\w가-힣]+$/, '');
+  };
+
   var searchTerm = getQueryVariable('query');
 
   if (searchTerm) {
@@ -38,6 +44,12 @@
     // Initalize lunr with the fields it will be searching on. I've given title
     // a boost of 10 to indicate matches on this field are more important.
     var idx = lunr(function () {
+      this.pipeline.reset();
+      this.pipeline.add(
+        trimmerEnKo,
+        lunr.stopWordFilter,
+        lunr.stemmer
+      );
       this.field('id');
       this.field('title', { boost: 10 });
       this.field('author');
