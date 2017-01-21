@@ -2,6 +2,10 @@
 layout: default
 ---
 {% assign posts_count = (paginator.posts | size) %}
+<form class="search-form" action="/search" method="get">
+  <label for="search_box"></label>
+  <input type="text" id="search-box" name="query" placeholder="검색">
+</form>
 
 <div class="home">
   {% if posts_count > 0 %}

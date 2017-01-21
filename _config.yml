@@ -86,7 +86,7 @@ text:
     hackernews:   'Share on Hacker News'
   post:
     updated:        '업데이트 됨'
-    minute_read:    '분 정도의 길이'
+    minute_read:    ''
     related_posts:  '연관 포스트'
   index:
     coming_soon: 'Coming soon...'

@@ -25,3 +25,6 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 - [Vue.set과 this.$set 사용 예제](https://jsfiddle.net/changjoo_park/9r01601h/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
 - [Vue.$nextTick을 이용한 UI갱신 예제](https://jsfiddle.net/devjin0617/pgscu4q3/) - [@devjin0617](https://github.com/devjin0617)
 - [글로벌 / 로컬 컴포넌트 사용 방법](https://jsfiddle.net/changjoo_park/dh2u3bye/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
+- [drag이벤트를 이용한 파일 드래그앤드롭 사용 예제](https://jsfiddle.net/devjin0617/b9zr4w98/) - [@devjin0617](https://github.com/devjin0617)
+- [drag이벤트를 이용한 드래그 앤 드롭이 가능한 이미지 컴포넌트](https://jsfiddle.net/changjoo_park/gjk2tqs5/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
+- [slot을 이용한 폼 헬퍼](https://jsfiddle.net/changjoo_park/god12gok/) - [@changjoo-park](https://github.com/ChangJoo-Park/)

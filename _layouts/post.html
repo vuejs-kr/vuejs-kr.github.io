@@ -2,11 +2,6 @@
 layout: default
 ---
 
-{% assign minutes = content | strip_html | number_of_words | divided_by: 180 %}
-{% if minutes == 0 %}
-{% assign minutes = 1 %}
-{% endif %}
-
 <div class="post-header mb2">
   <h1>{{ page.title }}</h1>
   <span class="post-meta">{{ page.date | date: site.date_format }}</span> <br>
@@ -14,11 +9,9 @@ layout: default
     {% if page.author %}
       작성자 : {{page.author}} <br>
     {% endif %}
-  </span>
-
-  {% if page.update_date %}
-    <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span><br>
-  {% endif %}
+  </span> {% if page.update_date %}
+  <span class="post-meta">{{ site.text.post.updated }}: {{ page.update_date | date: site.date_format }}</span><br> {% endif
+  %}
   <span class="post-meta small">
   {% if page.minutes %}
     {{ page.minutes }} {{ site.text.post.minute_read }}
@@ -32,48 +25,53 @@ layout: default
   {{ content }}
   <br>
   <div class="">
-    <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type ='text/javascript'>kofiwidget2.init('Buy Me a Coffee', '#46b798', 'A316F4N');kofiwidget2.draw();</script>
-    <br>
-    위 링크를 통해 후원을 받고 있습니다. 모든 후원금은 글을 올려주신 분께 돌아갑니다.
-  </div>
+    <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script>
+    <script type='text/javascript'>kofiwidget2.init('Buy Me a Coffee', '#46b798', 'A316F4N'); kofiwidget2.draw();</script>
+<br> 위 링크를 통해 후원을 받고 있습니다. 모든 후원금은 Vue.js 한국 커뮤니티 운영에 사용됩니다.
+</div>
 </article>
 
-{% if site.show_sharing_icons %}
-  {% include share_buttons.html %}
-{% endif %}
+{% if site.show_sharing_icons %} {% include share_buttons.html %} {% endif %} {% if site.show_post_footers %} {% include
+post_footer.html %} {% endif %} {% if site.disqus_shortname %}
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = '{{ site.disqus_shortname }}';
+  var disqus_identifier = '{{ page.id }}';
+  var disqus_title = {{ page.title | jsonify }};
 
-{% if site.show_post_footers %}
-  {% include post_footer.html %}
-{% endif %}
+  (function () {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+{% endif %} {% if site.facebook_comments %}
+<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="{{ site.facebook_comments_number }}"></div>
+{% endif %} {% if site.show_related_posts %}
+<h3 class="related-post-title">{{ site.text.post.related_posts }}</h3>
+{% for post in site.related_posts %}
+<div class="post ml2">
+  <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+    <h4 class="post-title">{{ post.title }}</h4>
+    <p class="post-summary">{{ post.summary }}</p>
+  </a>
+</div>
+{% endfor %} {% endif %}
+<div id="overlay"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+  $overlay = $('#overlay');
 
-{% if site.disqus_shortname %}
-  <div id="disqus_thread"></div>
-  <script type="text/javascript">
-    var disqus_shortname  = '{{ site.disqus_shortname }}';
-    var disqus_identifier = '{{ page.id }}';
-    var disqus_title      = {{ page.title | jsonify }};
-
-    (function() {
-      var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-      dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-  </script>
-  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-{% endif %}
-
-{% if site.facebook_comments %}
-  <div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%" data-numposts="{{ site.facebook_comments_number }}"></div>
-{% endif %}
-
-{% if site.show_related_posts %}
-  <h3 class="related-post-title">{{ site.text.post.related_posts }}</h3>
-  {% for post in site.related_posts %}
-    <div class="post ml2">
-      <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
-        <h4 class="post-title">{{ post.title }}</h4>
-        <p class="post-summary">{{ post.summary }}</p>
-      </a>
-    </div>
-  {% endfor %}
-{% endif %}
+  $('img').click(function(){
+    $overlay.fadeTo(200, 1).css({
+      backgroundImage: 'url('+this.src+')',
+      backgroundSize: 'contain'
+    });
+  });
+  $overlay.click(function(){
+    $(this).stop().fadeTo(200,0,function(){
+      $(this).hide();
+    });
+  });
+</script>
