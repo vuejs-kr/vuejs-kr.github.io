@@ -46,3 +46,19 @@
 .related-post-title {
   border-bottom: thin solid #f3f3f3;
 }
+
+#overlay{
+  display:none;
+  position:fixed;
+  top:0;
+  left: 0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.4);
+  background-repeat:no-repeat;
+  background-position: center center;
+  cursor:pointer;
+}
+.post-content img {
+  cursor: pointer;
+}
