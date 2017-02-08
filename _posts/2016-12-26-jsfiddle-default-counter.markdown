@@ -35,7 +35,7 @@ const counterApp = new Vue({
   el: '#counter-app',
   data: function () {
     return {
-      counter: 0
+      count: 0
     }
   }
 })
