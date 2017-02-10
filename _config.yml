@@ -42,6 +42,8 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
+slack_url: https://vuejs-korea.signup.team/
+facebook_url: https://www.facebook.com/groups/1152461054807344/
 github_username: vuejs-kr
 bitbucket_username:
 stackoverflow_id:
