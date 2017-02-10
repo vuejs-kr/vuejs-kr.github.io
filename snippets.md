@@ -29,3 +29,4 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 - [drag이벤트를 이용한 드래그 앤 드롭이 가능한 이미지 컴포넌트](https://jsfiddle.net/changjoo_park/gjk2tqs5/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
 - [slot을 이용한 폼 헬퍼](https://jsfiddle.net/changjoo_park/god12gok/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
 - [동적 컴포넌트 예제](https://jsfiddle.net/kciter/zfkyn2wf/) - [@kciter](https://github.com/kciter/)
+- [Semantic-UI로 admin 시작하기](https://jsfiddle.net/gongzza/unm2u7oe/) - [@gongzza](https://github.com/gongzza/)
