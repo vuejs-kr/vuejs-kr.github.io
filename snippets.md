@@ -33,3 +33,4 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 - [KeyEvent를 이용하여 DIV 이동하기](https://jsfiddle.net/cd2p7zzz/) - [@devjin0617](https://github.com/devjin0617)
 - [Vue 디렉티브를 이용한 스크롤 락](https://jsfiddle.net/changjoo_park/e9s2vga3/) - [@changjoo-park](https://github.com/changjoo-park)
 - [Vue Mixin을 이용한 스크롤 락](https://jsfiddle.net/changjoo_park/8vbppbaf/) - [@changjoo-park](https://github.com/changjoo-park)
+- [Vue-Router 페이지 트랜지션](https://jsfiddle.net/changjoo_park/tf8p8jve/) - [@changjoo-park](https://github.com/changjoo-park)
