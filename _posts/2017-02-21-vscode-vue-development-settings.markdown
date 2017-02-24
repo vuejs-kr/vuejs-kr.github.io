@@ -7,16 +7,18 @@ author: "jinhan"
 excerpt: "VSCODE에서 Vue개발환경 세팅을 해봅시다."
 ---
 
+[원본 글](http://hjh5488.tistory.com/39)
+
 # VSCode Sass, Vue 세팅하기
 
-항상 `Vue.js korea`에서 많은분들의 도움을 받고있습니다. 감사합니다~
+항상 `Vue.js korea`에서 많은 분들의 도움을 받고 있습니다. 감사합니다~
 
 어제 `vscode`를 처음 써보면서 세팅하면서 겪었던 시행착오들을 한번 정리해봤습니다.
 
 `vscode`를 처음 쓰시고자 하는분들한테 도움이 되길 바랍니다.
 
 ## Sass
-vscode를 맨처음 설치하고 단일 파일 `*.vue`로 된파일을 열었을때 `scss`가 있으면 아래와 같이 에러가 발생합니다.
+vscode를 맨 처음 설치하고 단일 파일 `*.vue`로 된 파일을 열었을때 `scss`가 있으면 아래와 같이 에러가 발생합니다.
 
 ![](https://s3.ap-northeast-2.amazonaws.com/leoheo-resource/Pasted+image+at+2017_02_17+03_54+PM.png)
 
@@ -28,7 +30,7 @@ vscode를 맨처음 설치하고 단일 파일 `*.vue`로 된파일을 열었을
 
 먼저 vscode에서 `vue`파일을 사용하기 위해서 제가 사용한 extension은 [Vue Components](https://marketplace.visualstudio.com/items?itemName=seanwash.vue) 입니다.
 
-vscode에서 extension를 쉽게 설치 하기 위해서 제공되는 편의기능중에 `F1`를 누르고 나오는 입력창에서 아래와 같이 입력하면 됩니다.
+vscode에서 extension를 쉽게 설치하기 위해서 제공되는 편의 기능 중에 `F1`를 누르고 나오는 입력창에서 아래와 같이 입력하면 됩니다.
 
 ![](https://s3.ap-northeast-2.amazonaws.com/leoheo-resource/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2017-02-18+%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE+1.51.51.png)
 
@@ -48,7 +50,7 @@ vscode에서 extension를 쉽게 설치 하기 위해서 제공되는 편의기�
 
 그래서 vscode는 이러한 세팅을 `settings.json`라는 파일로 세팅을 관리합니다.
 
-프로젝트의 root에 `.vscode`라는 디렉토리를 찾으실수 있을겁니다.
+프로젝트의 root에 `.vscode`라는 디렉토리를 찾으실 수 있을겁니다.
 
 ![](https://s3.ap-northeast-2.amazonaws.com/leoheo-resource/Pasted+image+at+2017_02_17+03_58+PM.png)
 
@@ -98,7 +100,7 @@ vscode에서 `eslint`를 적용하기 위해서 저는 `vscode-eslint`를 설치
 
 이 방법은 [vscode-eslint의 ISSUE #42](https://github.com/Microsoft/vscode-eslint/issues/42#issuecomment-264836417)를 참고하였습니다.
 
-이렇게 세팅을 하고 나면 인제 `.vue`파일에서도 linting이 되는걸 확인하실수 있습니다.
+이렇게 세팅을 하고 나면 인제 `.vue`파일에서도 linting이 되는걸 확인하실 수 있습니다.
 
 ![](https://s3.ap-northeast-2.amazonaws.com/leoheo-resource/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA+2017-02-18+%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE+2.30.46.png)
 
@@ -115,27 +117,27 @@ vscode에서 `eslint`를 적용하기 위해서 저는 `vscode-eslint`를 설치
 
 ```json
 "init template": {
-	"prefix": "tpl",
-	"body": [
-		"<template lang='$1'>",
-		"",
-		"</template>",
-		"<script>",
-		"export default {",
-		"",
-		"}",
-		"</script>",
-		"<style lang='$2'>",
-		"",
-		"</style>",
-		""
-	],
-	"description": "single vue file initial template"
+  "prefix": "tpl",
+  "body": [
+    "<template lang='$1'>",
+    "",
+    "</template>",
+    "<script>",
+    "export default {",
+    "",
+    "}",
+    "</script>",
+    "<style lang='$2'>",
+    "",
+    "</style>",
+    ""
+  ],
+  "description": "single vue file initial template"
 }
 ```
 
-그러면 아래와 같이 사용할수 있습니다.
+그러면 아래와 같이 사용할 수 있습니다.
 
 ![](https://s3.ap-northeast-2.amazonaws.com/leoheo-resource/ezgif.com-video-to-gif+(3).gif)
  
-마지막으로 틀린점이나 조금 더 나은방법이 있으신분은 언제나 지적해주시면 감사하겠습니다 ^^
+마지막으로 틀린 점이나 조금 더 나은 방법이 있으신 분은 언제나 지적해주시면 감사하겠습니다 ^^
