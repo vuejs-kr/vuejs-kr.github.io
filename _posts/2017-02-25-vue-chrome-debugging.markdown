@@ -7,9 +7,6 @@ author: "ChangJoo Park"
 excerpt: "vue 컴포넌트를 크롬 개발자도구로 디버깅합니다"
 ---
 
-# Vue.js 애플리케이션 디버깅
-
-
 
 vue.js는 훌륭한 개발자 도구인 **vue-devtools**를 제공합니다. 현재 크롬 브라우저만 지원하고 있으며 [여기](https://chrome.google.com/webstore/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)에서 받으실 수 있습니다.
 
