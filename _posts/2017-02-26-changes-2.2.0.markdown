@@ -35,11 +35,11 @@ render 함수의 타입이 함수에서 `(createElement: () => VNode) => VNode`�
 
 [문서](http://kr.vuejs.org/v2/api/#renderError)
 
- ### 옵션 / 컴포지션 항목 추가
+### 옵션 / 컴포지션 항목 추가
 
  [문서](http://kr.vuejs.org/v2/api/#옵션-컴포지션)
 
- ### `provide` / `inject` 추가
+### `provide` / `inject` 추가
 
  플러그인과 라이브러리에서 사용을 권장하는 의존성 주입 용 `provide` / `inject`가 추가되었습니다.
 
