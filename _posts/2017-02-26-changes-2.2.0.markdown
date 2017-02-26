@@ -4,6 +4,7 @@ title:  "Vue.js 2.2.0 버전 가이드/API 업데이트 요약"
 date:   2017-02-26 12:00:00 +0900
 categories: vue
 author: "ChangJoo Park"
+excerpt: "vue.js 2.2.0 업데이트에 따른 홈페이지 가이드/API를 다룹니다"
 ---
 
 ## API
