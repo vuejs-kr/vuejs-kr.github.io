@@ -1,0 +1,84 @@
+---
+layout: post
+title:  "Vue.js 2.2.0 버전 가이드/API 업데이트 요약"
+date:   2017-02-26 12:00:00 +0900
+categories: vue
+author: "ChangJoo Park"
+---
+
+## API
+
+### errorHandler 변경
+
+Vue의 라이프사이클에서 에러가 발생한 경우 앱을 멈추지 않고 에러 메시지를 출력합니다.
+
+[문서](http://kr.vuejs.org/v2/api/#errorHandler)
+
+### Vue.delete 전달인자 변경
+
+Vue.delete의 전달인자가 `object, key`에서 `target, key` 로 변경되었습니다.
+사용할 수 있는 타입이 Object와 Array 두가지가 되었습니다.
+키는 string 이외에 number가 추가되었습니다.
+
+[문서](http://kr.vuejs.org/v2/api/#Vue-delete)
+
+### render 변경
+
+render 함수의 타입이 함수에서 `(createElement: () => VNode) => VNode`로 변경되었습니다.
+
+[문서](http://kr.vuejs.org/v2/api/#render)
+
+### renderError 함수 추가
+
+ `render`함수 사용시 에러가 발생하면 `renderError` 함수를 사용해서 렌더링합니다. **개발 모드에서만** 사용할 수 있습니다
+
+[문서](http://kr.vuejs.org/v2/api/#renderError)
+
+ ### 옵션 / 컴포지션 항목 추가
+
+ [문서](http://kr.vuejs.org/v2/api/#옵션-컴포지션)
+
+ ### `provide` / `inject` 추가
+
+ 플러그인과 라이브러리에서 사용을 권장하는 의존성 주입 용 `provide` / `inject`가 추가되었습니다.
+
+[문서](http://kr.vuejs.org/v2/api/#provide-inject)
+
+### `vm.$props` 추가
+
+컴포넌트가 전달받은 속성에 접근할 수 있는 프록시가 추가 되었습니다
+
+[문서](http://kr.vuejs.org/v2/api/#vm-props)
+
+### `vm.$on` 변경
+
+문자열 외에 배열을 사용할 수 있습니다.
+[문서](http://kr.vuejs.org/v2/api/#vm-on)
+
+### `v-on` 마우스 관련 수식어 추가
+
+마우스 버튼 이벤트 핸들러가 추가되었습니다.
+
+[문서](http://kr.vuejs.org/v2/api/#v-on)
+
+### `keep-alive` 변경
+
+<keep-alive> 트리 안의 모든 중첩 컴포넌트에서 `activated`, `deactivated`가 실행됩니다.
+
+[문서](http://kr.vuejs.org/v2/api/#keep-alive)
+
+
+## 가이드
+
+### 컴포넌트 `v-model` 사용자 정의 추가
+
+[문서](http://kr.vuejs.org/v2/guide/components.html#컴포넌트의-v-model-사용자-정의)
+
+### 마우스 버튼 수식어 추가
+
+[문서](http://kr.vuejs.org/v2/guide/events.html#마우스-버튼-수식어)
+
+### 명시적 전환 지속 시간 설정 추가
+
+[문서](http://kr.vuejs.org/v2/guide/transitions.html#명시적-전환-지속-시간)
+
