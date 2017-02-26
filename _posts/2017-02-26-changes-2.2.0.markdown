@@ -64,7 +64,7 @@ render 함수의 타입이 함수에서 `(createElement: () => VNode) => VNode`�
 
 ### `keep-alive` 변경
 
-<keep-alive> 트리 안의 모든 중첩 컴포넌트에서 `activated`, `deactivated`가 실행됩니다.
+`<keep-alive>` 트리 안의 모든 중첩 컴포넌트에서 `activated`, `deactivated`가 실행됩니다.
 
 [문서](http://kr.vuejs.org/v2/api/#keep-alive)
 
