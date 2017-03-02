@@ -90,13 +90,11 @@ import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css'
 ```
 
-<script src="https://gist.github.com/devjin0617/0407efc9ba810ae565d3ece049992f72.js"></script>
-
 지금부터 `jQuery`와 `Bootstrap`을 동시에 사용할 수 있게 되었습니다.
 
 `Bootstrap`의 `.js`, `.css`가 잘 추가되었는지 테스트해보려면 HTML코드작성하는 부분에 아래와 같이 추가해보세요.
 
-```vue
+```html
 <template>
 ...
   <button type="button" class="btn btn-primary" autocomplate="off" data-loading-text="jquery with bootstrap" @click="clickBtn">
