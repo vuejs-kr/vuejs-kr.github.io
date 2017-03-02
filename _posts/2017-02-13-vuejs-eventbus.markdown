@@ -31,7 +31,7 @@ EventBus.$emit('message', 'hello world');
 ```javascript
 // 이벤트 구독
 EventBus.$on('message', function(text) {
-	console.log(text);
+    console.log(text);
 });
 ```
 
@@ -43,12 +43,12 @@ EventBus.$on('message', function(text) {
 
 ```xml
 <div id="sender-app">
-	<input v-model="text">
-	<button @click="sender">sender</button>
+    <input v-model="text">
+    <button @click="sender">sender</button>
     <div v-if="receiveText">#sender-app: I sent a message a {{ receiveText }}</div>
 </div>
 <div id="receiver-app">
-	<div v-if="text">#receiver-app: {{ text }}</div>
+    <div v-if="text">#receiver-app: {{ text }}</div>
 </div>
 ```
 
@@ -56,10 +56,10 @@ EventBus.$on('message', function(text) {
 var EventBus = new Vue();
 
 var SenderApp = new Vue({
-	el: '#sender-app',
+    el: '#sender-app',
     data() {
     	return {
-        	text: '',
+            text: '',
             receiveText: ''
         }
     },
@@ -68,28 +68,28 @@ var SenderApp = new Vue({
     },
     methods: {
     	sender() {
-        	EventBus.$emit('message', this.text);
+            EventBus.$emit('message', this.text);
             this.text = '';
         },
         onReceive(text) {
-        	this.receiveText = text;
+            this.receiveText = text;
         }
     }
 });
 
 var ReceiverApp = new Vue({
-	el: '#receiver-app',
+    el: '#receiver-app',
     data() {
     	return {
-        	text: ''
+            text: ''
         }
     },
-	created() {
+    created() {
     	EventBus.$on('message', this.onReceive);
     },
     methods: {
     	onReceive(text) {
-        	this.text = text;
+            this.text = text;
         }
     }
 });
@@ -102,7 +102,7 @@ var ReceiverApp = new Vue({
 ```javascript
 (function() {
 
-	var EventBus = Vue();
+    var EventBus = Vue();
 
     Object.defineProperties(Vue.prototype, {
         $eventBus: {
