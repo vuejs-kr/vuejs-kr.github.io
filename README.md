@@ -13,22 +13,22 @@ vue.js 관련 한국어 자료를 모으고 있습니다.
 
 ### 서버 실행하기전 설치요소
 
-> ruby v2.1.0 이상 설치되어 있어야합니다.
+1. 요구 사항
 
-```
-$ gem install jekyll
-```
+- Ruby v2.1.0 :arrow_up:
+- RubyDevKit
 
-```
+2. 설치
+
+```bash
+$ gie clone vuejs-kr.github.io
 $ gem install bundler
+$ cd vuejs-kr.github.io
+$ bundler install # 의존성이 모두 설치됩니다.
 ```
 
-```
-$ gem install jekyll-paginate
-```
-
-### 서버실행
+3. 로컬 테스트 서버 시작
 
 ```
-$ jekyll serve
+$ bundler exec jekyll serve
 ```
