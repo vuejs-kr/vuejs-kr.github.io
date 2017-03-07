@@ -15,20 +15,20 @@ vue.js 관련 한국어 자료를 모으고 있습니다.
 
 1. 요구 사항
 
-- Ruby v2.1.0 :arrow_up:
-- RubyDevKit
+    - Ruby v2.1.0 :arrow_up:
+    - RubyDevKit
 
 2. 설치
 
-```bash
-$ gie clone vuejs-kr.github.io
-$ gem install bundler
-$ cd vuejs-kr.github.io
-$ bundler install # 의존성이 모두 설치됩니다.
-```
+    ```bash
+    $ gie clone vuejs-kr.github.io
+    $ gem install bundler
+    $ cd vuejs-kr.github.io
+    $ bundler install # 의존성이 모두 설치됩니다.
+    ```
 
 3. 로컬 테스트 서버 시작
 
-```
-$ bundler exec jekyll serve
-```
+    ```
+    $ bundler exec jekyll serve
+    ```
