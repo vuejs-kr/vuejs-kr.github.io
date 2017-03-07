@@ -1,0 +1,48 @@
+
+.app-logo-img {
+    width:30px;
+    height:30px;
+}
+
+ul.ul-app {
+    padding: 0;
+    margin: 0;
+}
+
+li.li-app {
+    list-style-type: none;
+}
+
+li.li-app a {
+    display: flex;
+    padding:10px;
+}
+li.li-app a:hover {
+    background-color:#f7f6f6;
+    cursor: pointer;
+}
+
+li.li-app .app-logo-wrap {
+    width: 50px;
+    display: inline-block;
+}
+
+li.li-app .app-logo-wrap img.app-logo-img {
+    width: 100%;
+    height: auto;
+}
+
+li.li-app span.app-name {
+    padding: 0 20px;
+    line-height:48px;
+    vertical-align: bottom;
+}
+
+li.li-app span.app-description {
+    flex: 1;
+    line-height:48px;
+    vertical-align: bottom;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    overflow: hidden;
+}
