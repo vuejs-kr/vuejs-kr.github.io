@@ -20,6 +20,19 @@
 
 .site-header nav a {
   color: #666;
+
+  @media screen and (max-width: $viewport-small) {
+    display: block;
+    box-sizing: border-box;
+    margin-left: 0 !important;
+    padding: 10px 0;
+    width: 100%;
+    border-bottom: 1px solid #DDD;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
 }
 
 .site-header nav a:hover,
@@ -28,6 +41,14 @@
   color: #444;
   opacity: 1;
   border-bottom: 2px solid #444;
+
+  @media screen and (max-width: $viewport-small) {
+    border-bottom: 1px solid #AAA;
+
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
 }
 
 .site-nav a + a {
