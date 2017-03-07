@@ -1,6 +1,28 @@
 .site-header {
+  display: flex;
+  align-items: center;
+
+  margin: 0 auto;
+
   padding-top: $space-1;
   padding-bottom: $space-2;
+
+  width: $measure-width;
+  height: 50px;
+}
+
+.site-logo {
+  display: flex;
+  align-items: center;
+
+  & > span {
+    margin-left: 10px;
+  }
+
+  & > img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .site-header a {
