@@ -1,6 +1,7 @@
+
 .site-header {
   display: flex;
-  align-items: center;
+  flex-direction: column;
 
   margin: 0 auto;
 
@@ -9,11 +10,17 @@
 
   width: $measure-width;
   height: 50px;
+
+  @media screen and (max-width: $viewport-medium) {
+    padding-left: 10px;
+  }
 }
 
 .site-logo {
   display: flex;
   align-items: center;
+  
+  margin: 20px 0;
 
   & > span {
     margin-left: 10px;
