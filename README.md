@@ -1,5 +1,5 @@
 <p align = "center">
-<img src="https://vuejs.org/images/logo.png"/>
+  <img src="https://vuejs.org/images/logo.png"/>
 </p>
 ---
 
@@ -7,18 +7,13 @@
 
 vue.js 관련 한국어 자료를 모으고 있습니다.
 
-언제든지 올려주실 코드조각 또는 글이 있으시면 이슈에 [남겨주세요](https://github.com/vuejs-kr/vuejs-kr.github.io/issues/new)
+언제든지 올려주실 코드조각 또는 글이 있으시면 [이슈에 남겨주세요](https://github.com/vuejs-kr/vuejs-kr.github.io/issues/new)
 
-## 로컬에서 `vuejs-kr.github.io` 서버 실행하는 방법
-
-### 서버 실행하기전 설치요소
+## 개발
 
 1. 요구 사항
 
-    - Ruby v2.1.0 :arrow_up:
-    
-    # 윈도우 OS 를 사용하고 있습니까?
-    - RubyDevKit
+    - Ruby (최소 2.1) 최신버전을 권장합니다
 
 2. 설치
 
@@ -34,3 +29,5 @@ vue.js 관련 한국어 자료를 모으고 있습니다.
     ```
     $ bundler exec jekyll serve
     ```
+
+## 기여방법
