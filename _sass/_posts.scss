@@ -8,6 +8,16 @@
   border-bottom: thin solid #f3f3f3;
 }
 
+.post {
+  box-sizing: border-box;
+  padding: 15px;
+
+  &:hover {
+    box-shadow: 0 5px 5px #DADADA;
+    transition: box-shadow .2s;
+  }
+}
+
 .posts .post:last-child {
   border-bottom: none;
   margin-bottom: .375em;
