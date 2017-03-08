@@ -32,4 +32,4 @@ vue.js 관련 한국어 자료를 모으고 있습니다.
 
 ## 기여방법
 
-[기여 CONTRIBUTING](https://github.com/vuejs-kr/vuejs-kr.github.io/blob/master/CONTRIBUTING.md)를 읽어주세요
+[기여 CONTRIBUTING](https://github.com/vuejs-kr/vuejs-kr.github.io/blob/master/.github/CONTRIBUTING.md)를 읽어주세요
