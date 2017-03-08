@@ -4,7 +4,7 @@
 }
 
 .social-icons {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   width: 100%;
 }
 
@@ -12,6 +12,7 @@
   cursor: pointer;
   opacity: 0.8;
   padding: 0.2em;
+  font-size: 1.3rem;
 }
 
 .social-icons a.fa:hover {
@@ -21,4 +22,23 @@
 .social-icons iframe[title=Flattr] {
   position: relative;
   top: 0.1em;
+}
+
+.social-icons a.fa:hover {
+  &.fa-slack {
+    color: #E6433B;
+  }
+  &.fa-facebook {
+    color: #3b5998;
+  }
+  &.fa-github {
+    color: #552C7A;
+  }
+  &.fa-twitter {
+    color: #019FE9;
+  }
+  &.fa-rss {
+    color: #FFA500;
+  }
+  opacity: 1;
 }

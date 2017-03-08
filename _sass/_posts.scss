@@ -17,7 +17,7 @@
 .post-link .post-title {
   margin-top: 0;
   font-weight: 600;
-  color: #333;
+  color: #000;
 }
 
 .post-footer {
@@ -40,7 +40,11 @@
   margin: 0;
   padding: .25em 0;
   color: #7a7a7a;
-  font-style: italic;
+  font-size: 0.8rem;
+
+  .post-meta-author {
+    font-weight: bold;
+  }
 }
 
 .related-post-title {
@@ -61,4 +65,10 @@
 }
 .post-content img {
   cursor: pointer;
+}
+
+.post-content {
+  h1, h2, h3, h4, h5 {
+    margin-top: 1.2em;
+  }
 }
