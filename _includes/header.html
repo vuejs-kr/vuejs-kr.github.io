@@ -1,4 +1,4 @@
-<header class="site-header px2 px-responsive">
+<!--<header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
       <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
@@ -11,4 +11,18 @@
       </nav>
     </div>
   </div>
+</header>-->
+<header class="site-header">
+  <a href="{{ site.url }}" class="site-logo">
+    <img src="{{ site.baseurl }}/images/logo.png">
+    <span>
+      <strong>{{ site.title }}</strong>
+    </span>
+  </a>
+  <nav class="site-nav">
+    {% include navigation.html %}
+  </nav>
+  {% if site.show_social_icons %}
+    {% include social_links.html %}
+  {% endif %}
 </header>

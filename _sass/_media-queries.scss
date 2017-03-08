@@ -12,10 +12,6 @@
     text-align: left;
   }
 
-  .site-nav {
-    margin-top: 0;
-  }
-
   .site-header a {
     font-size: $h4;
   }
@@ -25,11 +21,6 @@
     float: left;
   }
 
-  .site-header .site-nav {
-    // float: right;
-    margin-top: .25rem;
-  }
-
   blockquote {
     margin-left: $space-3;
     padding: $space-3;
@@ -37,10 +28,6 @@
 
   .social-icons-left {
     text-align: left;
-  }
-
-  .social-icons-right {
-    text-align: right;
   }
 }
 

@@ -16,7 +16,9 @@ vue.js 관련 한국어 자료를 모으고 있습니다.
 1. 요구 사항
 
     - Ruby v2.1.0 :arrow_up:
-    - RubyDevKit
+    
+    # 윈도우 OS 를 사용하고 있습니까?
+    - RubyDevKit
 
 2. 설치
 
