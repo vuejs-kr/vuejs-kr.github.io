@@ -35,3 +35,4 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 - [Vue Mixin을 이용한 스크롤 락](https://jsfiddle.net/changjoo_park/8vbppbaf/) - [@changjoo-park](https://github.com/changjoo-park)
 - [Vue-Router 페이지 트랜지션](https://jsfiddle.net/changjoo_park/tf8p8jve/) - [@changjoo-park](https://github.com/changjoo-park)
 - [v-cloak 예제](https://jsfiddle.net/kciter/eqqgcsww/1/) - [@kciter](https://github.com/kciter/)
+- [Semantic-UI Simple Toastr 예제](https://jsfiddle.net/gongzza/szLhkfjk/) - [@gongzza](https://github.com/gongzza/)
