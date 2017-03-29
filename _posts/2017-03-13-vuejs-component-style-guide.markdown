@@ -110,7 +110,7 @@ Vue.js의 인라인 표현식은 100% 자바스크립트입니다. 이 기능은
 <!-- 권장합니다 -->
 <template>
 	<h1>
-		{ { `${year}-$\{month}` } }
+		{ { `${year}-${month}` } }
 	</h1>
 </template>
 <script type="text/javascript">

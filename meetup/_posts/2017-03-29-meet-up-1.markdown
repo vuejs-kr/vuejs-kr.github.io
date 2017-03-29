@@ -1,0 +1,28 @@
+---
+layout: post
+title: 한국어 사용자 모임 1회
+date:   2017-03-29 11:45:31 +0900
+categories: meetup
+---
+
+안녕하세요. Vue.js 한국어 사용자 모임 1회를 준비하고 있습니다.
+
+### 설문 결과
+모임에 앞서 수요조사를 위한 설문조사를 진행했습니다. **총 61분**이 설문에 응답해주셨습니다. 감사합니다.
+설문 결과에 대한 자세한 내용은 아래 링크를 참고해주세요. :) 
+[https://changjoopark.typeform.com/report/E6qq1a/Eo7i](https://changjoopark.typeform.com/report/E6qq1a/Eo7i)
+
+### 시간
+투표 결과에 따라 **주중 저녁** 혹은 **주말 오후**가 유력합니다. 현재 미정이지만 4월 중으로 열릴 예정입니다. 
+
+### 장소
+위 설문 결과 링크에는 나오지 않았지만 **강남**을 원하시는 분들이 많아 최대한 강남쪽으로 알아볼 예정입니다. 현재 미정입니다.
+
+### 발표자 모집
+모임에서 소중한 지식을 공유해주실 고수분을 모집하고 있습니다! 
+[https://docs.google.com/forms/d/13OWEy0EdqMek5YtQGsjdmgrsz75Pf6nEJOSJ6jPfgMw](https://docs.google.com/forms/d/13OWEy0EdqMek5YtQGsjdmgrsz75Pf6nEJOSJ6jPfgMw)
+
+### 참여자 모집
+추후 공지하겠습니다.
+
+감사합니다.
