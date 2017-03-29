@@ -110,11 +110,7 @@ Vue.js의 인라인 표현식은 100% 자바스크립트입니다. 이 기능은
 <!-- 권장합니다 -->
 <template>
 	<h1>
-<<<<<<< HEAD:_posts/2017-03-16-vuejs-component-style-guide.markdown
 		{ { `${year}-${month}` } }
-=======
-		{ { `${year}-$\{month}` } }
->>>>>>> 5f98a48becee0f83382468eca93d356eaf2db9c3:_posts/2017-03-13-vuejs-component-style-guide.markdown
 	</h1>
 </template>
 <script type="text/javascript">
