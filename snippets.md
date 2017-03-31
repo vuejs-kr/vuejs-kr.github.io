@@ -36,3 +36,5 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 - [Vue-Router 페이지 트랜지션](https://jsfiddle.net/changjoo_park/tf8p8jve/) - [@changjoo-park](https://github.com/changjoo-park)
 - [v-cloak 예제](https://jsfiddle.net/kciter/eqqgcsww/1/) - [@kciter](https://github.com/kciter/)
 - [Semantic-UI Simple Toastr 예제](https://jsfiddle.net/gongzza/szLhkfjk/) - [@gongzza](https://github.com/gongzza/)
+- [Vee-validate 기본 사용법 예제](https://jsfiddle.net/gongzza/m67d8f4x/2/) - [@gongzza](https://github.com/gongzza/)
+- [Vee-validate field-input component 예제](https://jsfiddle.net/gongzza/m67d8f4x/) - [@gongzza](https://github.com/gongzza/)
