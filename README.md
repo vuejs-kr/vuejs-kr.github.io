@@ -18,7 +18,7 @@ vue.js 관련 한국어 자료를 모으고 있습니다.
 2. 설치
 
     ```bash
-    $ gem clone vuejs-kr.github.io
+    $ git clone vuejs-kr.github.io
     $ gem install bundler
     $ cd vuejs-kr.github.io
     $ bundler install # 의존성이 모두 설치됩니다.
