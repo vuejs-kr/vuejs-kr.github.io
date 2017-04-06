@@ -10,7 +10,7 @@ excerpt: "express-generator와 vue-cli를 이용한 개발 전략을 사용합�
 
 이 글은 express 기반 서버 환경에서 vue를 시작하는 분을 위한 가이드 입니다. 여기서 설명하는 내용이 정답은 아닙니다. 실제로 저는 express를 사용해본 경험도 없습니다. 많은 분들께서 express를 사용하시고 있고, vue를 함께 사용하면 어떻게 해야하는지 고민하는 글을 보고 express를 시작하는 입장으로 작성하였습니다.
 
-최종 결과물은 https://github.com/ChangJoo-Park/express-generator-with-vue-cli 입니다.
+최종 결과물은 [https://github.com/ChangJoo-Park/express-generator-with-vue-cli](https://github.com/ChangJoo-Park/express-generator-with-vue-cli) 입니다.
 
 ### 이 글에서 다루는 내용
 
