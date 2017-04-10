@@ -2,7 +2,7 @@
 layout: post
 title: 한국어 사용자 모임 1회
 date:   2017-03-29 11:45:31 +0900
-categories: meetup
+categories:
 ---
 
 안녕하세요. Vue.js 한국어 사용자 모임 1회를 준비하고 있습니다.
