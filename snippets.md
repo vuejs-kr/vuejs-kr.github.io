@@ -38,4 +38,4 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 - [Semantic-UI Simple Toastr 예제](https://jsfiddle.net/gongzza/szLhkfjk/) - [@gongzza](https://github.com/gongzza/)
 - [Vee-validate 기본 사용법 예제](https://jsfiddle.net/gongzza/m67d8f4x/2/) - [@gongzza](https://github.com/gongzza/)
 - [Vee-validate field-input component 예제](https://jsfiddle.net/gongzza/m67d8f4x/) - [@gongzza](https://github.com/gongzza/)
-- [비동기 컴포넌트 예제 (2.3.0+)](https://jsfiddle.net/changjoo_park/em578twu/3/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
+- [비동기 컴포넌트 예제 (2.3.0+)](https://jsfiddle.net/changjoo_park/em578twu/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
