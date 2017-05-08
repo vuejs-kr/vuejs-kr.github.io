@@ -26,7 +26,7 @@ excerpt: "jsFiddle에서 Vue.js를 이용하여 Counter 앱을 만들어 봅니�
 
 ``` html
 <div id="counter-app">
-  {{count}}
+  &#123;&#123; count &#125;&#125;
 </div>
 ```
 
@@ -51,7 +51,7 @@ counterApp의 `count`를 증가/감소 시키는 메소드를 만들겠습니다
 
 ``` html
 <div id="counter-app">
-  {{count}}
+  &#123;&#123; count &#125;&#125;
   <button v-on:click="increaseCount()">+</button>
   <button v-on:click="decreaseCount()">-</button>
 </div>
@@ -79,7 +79,7 @@ count가 5보다 이상 0보다 이하인 경우에 대한 처리는 어떻게 �
 
 ``` html
 <div id="counter-app">
-  {{count}}
+  &#123;&#123; count &#125;&#125;
   <button v-on:click="increaseCount()" v-bind:disabled="isMoreThanEqualFive">+</button>
   <button v-on:click="decreaseCount()" v-bind:disabled="isLessThanEqualZero">-</button>
 </div>
