@@ -7,9 +7,7 @@ author: "ChangJoo Park"
 excerpt: "EpubPress를 이용해 한국어 문서를 전자책으로 변환합니다"
 ---
 
-# Vue.js 가이드를 전자책으로 만들기
-
-이 가이드는 Vue.js 공식 한글 문서를 epub 파일로 만드는 과정을 담고 있습니다.
+이 문서는 Vue.js 공식 한글 문서를 epub 파일로 만드는 과정을 담고 있습니다.
 한글 문서 관리에 많은 도움 부탁드립니다.
 저장소는 https://github.com/vuejs-kr/kr.vuejs.org 입니다.
 
