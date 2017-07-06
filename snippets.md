@@ -14,7 +14,7 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 
 
 ### 목록
-= [vuex를 이용하는 모달 생성](https://jsfiddle.net/gongzza/44L6y8ha/) - [@gongzza](https://github.com/gongzza/)
+- [vuex를 이용하는 모달 생성](https://jsfiddle.net/gongzza/44L6y8ha/) - [@gongzza](https://github.com/gongzza/)
 - [vuex mutations 변수 대입 문제](https://jsfiddle.net/gongzza/hhb248bx/) - [@gongzza](https://github.com/gongzza/)
 - [v-model의 한글 사용 문제를 v-on을 사용한 해결법](https://jsfiddle.net/kciter/tLz9gt4o/) - [@kciter](https://github.com/kciter/)
 - [v-model 사용시 한글 사용 문제](https://jsfiddle.net/kciter/b5qhxbfh/) - [@kciter](https://github.com/kciter/)
