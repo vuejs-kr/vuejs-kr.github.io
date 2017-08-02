@@ -2,3 +2,9 @@
   logo: vue.png
   url: https://vuejs.org
   description: 프로그레시브 JavaScript 프레임워크
+
+- name: Ripplectron
+  logo: ripple.png
+  url: https://github.com/devjin0617/ripplectron
+  description: Vuejs + Electron으로 제작한 가상화폐지갑
+  
