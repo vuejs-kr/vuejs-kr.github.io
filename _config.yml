@@ -1,5 +1,5 @@
 # Site settings
-title:       Vue.js 한국어 사용자 모임
+title:       Vue.js 한국 사용자 모임
 email:
 author:      ChangJoo Park
 description: "Vue.js 관련 한국어 자료를 보관하는 곳 입니다."
@@ -109,7 +109,7 @@ markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
 permalink:    pretty
-paginate:     10
+paginate:     20
 sass:
   compressed: true
 gems:

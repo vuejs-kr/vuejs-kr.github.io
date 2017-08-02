@@ -1,34 +1,36 @@
 <p align = "center">
-<img src="https://vuejs.org/images/logo.png"/>
+  <img src="https://vuejs.org/images/logo.png"/>
 </p>
+
 ---
 
 ## Vue.js 한국어 사용자 모임입니다.
 
 vue.js 관련 한국어 자료를 모으고 있습니다.
 
-언제든지 올려주실 코드조각 또는 글이 있으시면 이슈에 [남겨주세요](https://github.com/vuejs-kr/vuejs-kr.github.io/issues/new)
+언제든지 올려주실 코드조각 또는 글이 있으시면 [이슈에 남겨주세요](https://github.com/vuejs-kr/vuejs-kr.github.io/issues/new)
 
-## 로컬에서 `vuejs-kr.github.io` 서버 실행하는 방법
+## 개발
 
-### 서버 실행하기전 설치요소
+1. 요구 사항
 
-> ruby v2.1.0 이상 설치되어 있어야합니다.
+    - Ruby (최소 2.1) 최신버전을 권장합니다
 
-```
-$ gem install jekyll
-```
+2. 설치
 
-```
-$ gem install bundler
-```
+    ```bash
+    $ git clone vuejs-kr.github.io
+    $ gem install bundler
+    $ cd vuejs-kr.github.io
+    $ bundler install # 의존성이 모두 설치됩니다.
+    ```
 
-```
-$ gem install jekyll-paginate
-```
+3. 로컬 테스트 서버 시작
 
-### 서버실행
+    ```
+    $ bundler exec jekyll serve
+    ```
 
-```
-$ jekyll serve
-```
+## 기여방법
+
+[기여 CONTRIBUTING](https://github.com/vuejs-kr/vuejs-kr.github.io/blob/master/.github/CONTRIBUTING.md)를 읽어주세요

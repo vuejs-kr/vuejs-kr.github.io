@@ -14,9 +14,9 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 
 
 ### 목록
-
+- [vuex를 이용하는 모달 생성](https://jsfiddle.net/gongzza/44L6y8ha/) - [@gongzza](https://github.com/gongzza/)
 - [vuex mutations 변수 대입 문제](https://jsfiddle.net/gongzza/hhb248bx/) - [@gongzza](https://github.com/gongzza/)
-- [v-model의 한글 사용 문제을 v-on을 사용한 해결법](https://jsfiddle.net/kciter/tLz9gt4o/) - [@kciter](https://github.com/kciter/)
+- [v-model의 한글 사용 문제를 v-on을 사용한 해결법](https://jsfiddle.net/kciter/tLz9gt4o/) - [@kciter](https://github.com/kciter/)
 - [v-model 사용시 한글 사용 문제](https://jsfiddle.net/kciter/b5qhxbfh/) - [@kciter](https://github.com/kciter/)
 - [vue-router 중첩 라우팅 예제](https://jsfiddle.net/changjoo_park/z4ja4wtx/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
 - [vuejs에서 이미지적용시 비동기로 inline style 적용 예제](https://jsfiddle.net/devjin0617/fxyyr1fx/) - [@devjin0617](https://github.com/devjin0617)
@@ -35,3 +35,8 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 - [Vue Mixin을 이용한 스크롤 락](https://jsfiddle.net/changjoo_park/8vbppbaf/) - [@changjoo-park](https://github.com/changjoo-park)
 - [Vue-Router 페이지 트랜지션](https://jsfiddle.net/changjoo_park/tf8p8jve/) - [@changjoo-park](https://github.com/changjoo-park)
 - [v-cloak 예제](https://jsfiddle.net/kciter/eqqgcsww/1/) - [@kciter](https://github.com/kciter/)
+- [Semantic-UI Simple Toastr 예제](https://jsfiddle.net/gongzza/szLhkfjk/) - [@gongzza](https://github.com/gongzza/)
+- [Vee-validate 기본 사용법 예제](https://jsfiddle.net/gongzza/m67d8f4x/2/) - [@gongzza](https://github.com/gongzza/)
+- [Vee-validate field-input component 예제](https://jsfiddle.net/gongzza/m67d8f4x/) - [@gongzza](https://github.com/gongzza/)
+- [비동기 컴포넌트 예제 (2.3.0+)](https://jsfiddle.net/changjoo_park/em578twu/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
+- [inheritAttrs, $attrs, $listeners 예제 (2.4.0+)](https://jsfiddle.net/changjoo_park/pzx08wp9/) - [@changjoo-park](https://github.com/ChangJoo-Park/)

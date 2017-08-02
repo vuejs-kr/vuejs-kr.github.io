@@ -9,13 +9,12 @@ abbr {
 }
 
 p {
-  color: #333;
+  color: #000;
   line-height: 1.8;
   word-break: keep-all;
-  letter-spacing: -0.5px;
+  letter-spacing: 0px;
   font-weight: lighter;
   transform: rotate(-0.0000000001deg);
-  text-shadow: 0 0 1px rgba(0,0,0,0.3);
   -webkit-text-size-adjust: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -34,4 +33,10 @@ sup {
   position: relative;
   vertical-align: middle;
   top: -0.9ex;
+}
+
+
+p .highlighter-rouge {
+  font-weight: normal;
+  font-size: 0.8rem;
 }

@@ -1,0 +1,20 @@
+---
+layout: page
+tags: apps
+---
+
+<h2>Vue로 만든 애플리케이션 소개</h2>
+
+<ul class="ul-app">
+{% for app in site.data.apps %}
+    <li class="li-app">
+        <a href="{{ app.url }}" target="_blank">
+            <div class="app-logo-wrap">
+                <img class="app-logo-img" src="/images/apps/{{ app.logo }}">
+            </div>
+            <span class="app-name">{{ app.name }}</span>
+            <span class="app-description">{{ app.description }}</span>
+        </a>
+    </li>
+{% endfor %}
+</ul>

@@ -1,11 +1,19 @@
-<a href="https://kr.vuejs.org" target="_blank">가이드</a>
+<div class="site-nav-item">
+  <a href="https://kr.vuejs.org" target="_blank">공식가이드</a>
+</div>
+<div class="site-nav-item">
+  <a href="/">글모음</a>
+</div>
 {% for page in site.pages %}
-    {% if page.tags contains "about" %}
-        <a href="{{ page.url }}" >{{ page.title }}</a>
-    {% endif %}
+  {% if page.tags contains "about" or page.tags contains "posts" or page.tags contains "korean" %}
+    <div class="site-nav-item">
+      <a href="{{ page.url }}" >{{ page.title }}</a>
+    </div>
+  {% endif %}
 {% endfor %}
-{% for page in site.pages %}
-    {% if page.tags contains "korean" %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
-    {% endif %}
-{% endfor %}
+<div class="site-nav-item">
+  <a href="/apps">APP소개</a>
+</div>
+<div class="site-nav-item">
+  <a href="/meetup">한국어 사용자 모임 기록</a>
+</div>
