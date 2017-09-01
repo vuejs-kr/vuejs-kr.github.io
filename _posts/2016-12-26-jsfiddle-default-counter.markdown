@@ -41,7 +41,7 @@ const counterApp = new Vue({
 })
 ```
 
-counterApp 은 Vue 인스턴스 입니다. `counter-app` ID를 가지는 div에 마운트됩니다. counterApp이 가지는 데이터 객체는 `counter` 입니다.
+counterApp 은 Vue 인스턴스 입니다. `counter-app` ID를 가지는 div에 마운트됩니다. counterApp이 가지는 데이터 객체는 `count` 입니다.
 `count` 객체는 `#counter-app` 안에서 Handlebars로 출력할 수 있습니다.
 
 
