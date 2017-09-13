@@ -7,7 +7,7 @@ author: "ChangJoo Park"
 excerpt: "vue.js에서 axios를 사용하여 http 요청을 처리합니다"
 ---
 
-
+> 2017-09-13 수정입니다. Vue 버전 변경으로 v-for에 key를 바인딩합니다. LeoP0ld님 감사합니다.
 
 ## vue와 ajax 요청
 
@@ -55,7 +55,7 @@ npm install --save axios
 <template>
   <div id="app">
     <div v-if="hasResult">
-      <div v-for="post in posts">
+      <div v-for="post in posts" v-bind:key="post.id">
         <h1>{{post.title}}</h1>
         <p>{{post.body}}</p>
       </div>
