@@ -16,7 +16,7 @@ excerpt: ""
 
 Storyboard는 상호작용이 가능한 UI 컴포넌트 뷰어를 만드는 도구입니다. 설치와 구성이 쉽고, 정적 웹사이트로 배포도 할 수 있습니다.
 
-Storybook은 기존의 React만 사용할 수 있는 환경에서 최근에 Vue.js를 지원하기 시작했습니다. 특히 Vue.js 일본의 [Kazuya Kawakuchi](https://github.com/kazupon)의 노력이 있었습니다.
+Storybook은 기존의 React만 사용할 수 있는 환경에서 최근에 Vue.js를 지원하기 시작했습니다. 특히 Vue.js 일본의 [Kazuya Kawaguchi](https://github.com/kazupon)의 노력이 있었습니다.
 
 ## Storybook for Vue
 
