@@ -2,7 +2,7 @@
 layout: post
 title: Storybook + Vue로 UI 컴포넌트 문서 만들기
 date: 2017-09-21 12:00:00 +0900
-categories: vue, storybook
+categories: vue storybook
 author: "ChangJoo Park"
 excerpt: ""
 ---
