@@ -11,6 +11,8 @@ excerpt: ""
 
 원본 링크 : https://hashnode.com/ama/with-vuejs-team-cj7itlrki03ae62wuv2r2005s
 
+수정사항 : VueConf 2018은 미국 뉴올리언스에서 열립니다
+
 ## React 라이센스 사태
 
 React는 처음부터 BSD + patent clause를 유지했습니다. Vue는 특정 회사가 차지하고 있는 프로젝트가 아닙니다. Vue는 후원으로 유지되고 있습니다. 최악의 경우에도 MIT 정책을 유지할 예정입니다.
@@ -71,10 +73,6 @@ Evan You와 Egoist가 애니메이션 팬이라 릴리즈 이름을 정합니다
 ## Evan You 이외의 코어팀의 역할은?
 
 Evan You는 주로 Vue 코어를 담당합니다. 대부분의 코드는 Evan이 작성하지만 의사결정은 코어팀과 함께 합니다.
-
-## 다음 VueConf는 어디입니까?
-
-런던에서 열리고 Vue London과는 무관합니다. 공식 컨퍼런스는 VueConf 뿐입니다.
 
 ## Egoist와 Thorsten에 대하여
 
