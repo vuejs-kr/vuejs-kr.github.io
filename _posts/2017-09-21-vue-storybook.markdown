@@ -7,8 +7,12 @@ author: "ChangJoo Park"
 excerpt: ""
 ---
 
+수정 내역 
+- 2017-09-23 : 예제에 있는 Vuex를 제거했습니다.
+
 이 문서는 UI 컴포넌트 개발을 위한 Storybook을 소개하고 Vue.js를 이용해 개발하는 방법을 다룹니다.
 [공식 가이드](https://storybook.js.org/basics/guide-vue/)를 기반으로 설명합니다.
+
 
 ## Storybook 소개
 
@@ -78,13 +82,9 @@ config.js 파일의 내용은 아래와 같습니다.
 import { configure } from '@storybook/vue';
 
 import Vue from 'vue';
-import Vuex from 'vuex'; // Vue plugins
 
 // Import your custom components.
 import Mybutton from '../src/stories/Button.vue';
-
-// Install Vue plugins.
-Vue.use(Vuex);
 
 // Register custom components.
 Vue.component('my-button', Mybutton);
