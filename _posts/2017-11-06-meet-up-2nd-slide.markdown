@@ -28,7 +28,7 @@ Vuetiful Korea 2회 모임에서 발표해주신 발표자분들께 감사드리
 <iframe src="//www.slideshare.net/slideshow/embed_code/key/iwj7VC5tQuHBdA" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/chiwoonglee/vuetiful-korea" title="vuetiful korea 발표자료" target="_blank">vuetiful korea 발표자료</a> </strong> from <strong><a href="https://www.slideshare.net/chiwoonglee" target="_blank">chiwoong lee</a></strong> </div>
 
 ## Vuetiful 애니메이션: Framer 따라잡기
-* 발표자: 김한웅님
+* 발표자: 이승민님
 
 <iframe src="//slides.com/smilee/vuetiful-animations/embed" width="576" height="420" scrolling="no" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
