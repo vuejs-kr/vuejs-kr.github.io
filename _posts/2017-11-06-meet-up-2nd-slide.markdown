@@ -7,7 +7,7 @@ author: "Vue.js 한국어 사용자 모임"
 excerpt: "Vuetiful Korea 2회 모임 발표 자료를 공유합니다."
 ---
 
-Vuetiful Korea 1회 모임에서 발표해주신 발표자분들께 감사드리며 발표 자료를 공유해드립니다. 
+Vuetiful Korea 2회 모임에서 발표해주신 발표자분들께 감사드리며 발표 자료를 공유해드립니다. 
 감사합니다.
 
 ## Vue.js를 이용한 서비스 구축
