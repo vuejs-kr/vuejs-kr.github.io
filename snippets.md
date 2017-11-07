@@ -41,3 +41,4 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 - [비동기 컴포넌트 예제 (2.3.0+)](https://jsfiddle.net/changjoo_park/em578twu/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
 - [inheritAttrs, $attrs, $listeners 예제 (2.4.0+)](https://jsfiddle.net/changjoo_park/pzx08wp9/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
 - [input 엘리먼트에서 동적 type 바인딩 2.5.0+](https://jsfiddle.net/changjoo_park/Lrngohoo/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
+- [Event Handling `.exact` 예제 2.5.0+](https://jsfiddle.net/changjoo_park/sgkacLgL/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
