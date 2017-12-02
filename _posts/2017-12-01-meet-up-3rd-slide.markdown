@@ -12,7 +12,7 @@ Vuetiful Korea 3회 모임에서 발표해주신 발표자분들께 감사드리
 
 ## Virtual DOM to Render
 * 발표자: 우경화님
-* [링크](http://jicjjang.github.io/2017/11/30/vue-pwa-start/#/)
+* [링크](https://docs.google.com/presentation/d/1CicMIDXECBg_5Y7TnAf-iF4uXW7PrDoUfAM6hpBCulI/edit?usp=sharing)
 
 ## Vue.js로 Unit Test하기
 * 발표자: 박성호님
