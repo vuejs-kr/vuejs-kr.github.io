@@ -47,7 +47,7 @@ eslint 설정을 담고 있는 파일은 **.eslintrc.js **입니다. 기본값�
 
 —
 
-**주의사항 : **parser 속성이 parserOptions안에 있어야 합니다. 그렇지 않으면 eslint가 정상적으로 작동하지 않습니다.
+**주의사항 : ** parser 속성이 parserOptions안에 있어야 합니다. 그렇지 않으면 eslint가 정상적으로 작동하지 않습니다.
 
 Vue 스타일 가이드는 4단계의 규칙 범위를 나누었습니다. eslint-plugin-vue 기준을 설명합니다.
 
