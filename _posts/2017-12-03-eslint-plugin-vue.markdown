@@ -25,11 +25,16 @@ Vue.js는 사용하는 사람에 따라 코딩 스타일이 매우 다릅니다.
 
 —
 
-`vue init webpack my-project`
+```
+vue init webpack my-project
+cd my-project
+npm install 
+npm install --save-dev eslint eslint-plugin-vue@next
+```
 
-터미널에서 위 명령어로 새 프로젝트를 만듭니다.
+터미널에서 위 명령어로 새 프로젝트를 만들고 eslint-plugin-vue를 설치합니다.
 
-eslint 설정을 담고 있는 파일은 **.eslintrc.js **입니다. 기본값은 아래와 같습니다.
+eslint 설정을 담고 있는 파일은 **.eslintrc.js** 입니다. 기본값은 아래와 같습니다.
 
 <script src="https://gist.github.com/ChangJoo-Park/0d19afe8bcaeee3ed2aeb48ad81ab1ac.js"></script>
 
