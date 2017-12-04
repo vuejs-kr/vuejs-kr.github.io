@@ -7,6 +7,8 @@ author: "ChangJoo Park"
 excerpt: "webpack 템플릿에 eslint-plugin-vue를 적용해봅니다."
 ---
 
+[원본링크](https://medium.com/@changjoopark/vue-js-%EA%B3%B5%EC%8B%9D-eslint-%ED%94%8C%EB%9F%AC%EA%B7%B8%EC%9D%B8-%EC%A0%81%EC%9A%A9%ED%95%98%EA%B8%B0-3457ac648b05)
+
 Vue.js는 사용하는 사람에 따라 코딩 스타일이 매우 다릅니다. 공식문서는 잘 되어있지만 실제 작업하다보면 규칙을 잘 지키기 힘듭니다.
 
 가장 많이 사용하는 Vue.js 템플릿 중 [webpack
@@ -47,7 +49,7 @@ eslint 설정을 담고 있는 파일은 **.eslintrc.js **입니다. 기본값�
 
 —
 
-**주의사항 : ** parser 속성이 parserOptions안에 있어야 합니다. 그렇지 않으면 eslint가 정상적으로 작동하지 않습니다.
+**주의사항:** parser 속성이 parserOptions안에 있어야 합니다. 그렇지 않으면 eslint가 정상적으로 작동하지 않습니다.
 
 Vue 스타일 가이드는 4단계의 규칙 범위를 나누었습니다. eslint-plugin-vue 기준을 설명합니다.
 
