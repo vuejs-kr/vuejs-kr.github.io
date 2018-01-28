@@ -54,11 +54,11 @@ vue create my-project
 
 위 명령어로 프로젝트를 만들면 두가지 선택지를 제공합니다. 기본값으로 프로젝트를 만드는 방법과 사용자 정의하여 프로젝트를 만들 수 있습니다.
 
-![Select settings](/images/vue-cli-3/settings.png)
+![Select settings](https://i.imgur.com/Iq0STMz.png)
 
 기본 npm 저장소에 연결되는 속도가 느리거나 사용이 불가능한 경우(중국과 같이 인터넷이 통제된 상태) 에는 `https://registry.npm.taobao.org`로 npm 저장소를 대체합니다.
 
-![Slow Connection](/images/vue-cli-3/slow-connection.png)
+![Slow Connection](https://i.imgur.com/ialweTL.png)
 
 ### 기본값으로 프로젝트 만들기
 
@@ -68,7 +68,7 @@ Vue CLI의 기본 템플릿은 **babel**, **eslint,** **unit-mocha** 를 포함�
 
 사용자 정의 설정은 아래의 설정을 포함합니다. 한번 선택한 설정은 다음에도 사용할 수 있도록 저장할 수 있습니다.
 
-![Save project settings](/images/vue-cli-3/save-later.png)
+![Save project settings](https://i.imgur.com/jBfpNvA.png)
 
 - 타입스크립트 지원
 - 프로그레시브 웹 앱 (PWA) 지원
@@ -90,7 +90,7 @@ Vue CLI의 기본 템플릿은 **babel**, **eslint,** **unit-mocha** 를 포함�
   - [Cypress](https://www.cypress.io/)
   - [Nightwatch](http://nightwatchjs.org/)
 
-![Manual Settings](/images/vue-cli-3/manual-settings.png)
+![Manual Settings](https://i.imgur.com/klQf7an.png)
 
 ### vue-cli 2버전과 비교
 
