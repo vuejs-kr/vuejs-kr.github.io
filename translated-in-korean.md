@@ -13,3 +13,4 @@ Github에 공개된 프로젝트 중 한글 번역된 프로젝트 입니다.
 - <a href="http://vue-loader.vuejs.org/kr/" target="_blank">Vue-Loader</a>
 - <a href="https://github.com/vuejs-kr/vue-cli" target="_blank">Vue CLI</a>
 - <a href="https://ssr.vuejs.org/ko" target="_blank">Vue.js 서버 사이드 렌더링 가이드</a>
+- <a href="https://ko.nuxtjs.org/" target="_blank">Nuxt.js 가이드</a>
