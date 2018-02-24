@@ -20,4 +20,4 @@ Vuetiful Korea 3회 모임에서 발표해주신 발표자분들께 감사드리
 
 ## PWA 시작하기
 * 발표자: 최준석님
-* [링크](http://jicjjang.github.io/2017/11/30/vue-pwa-start/#/)
+* [링크](https://jicjjang.github.io/blog/slides/vue-pwa-start/)
