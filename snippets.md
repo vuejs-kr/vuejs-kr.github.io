@@ -43,3 +43,4 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 - [input 엘리먼트에서 동적 type 바인딩 2.5.0+](https://jsfiddle.net/changjoo_park/Lrngohoo/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
 - [Event Handling `.exact` 예제 2.5.0+](https://jsfiddle.net/changjoo_park/sgkacLgL/) - [@changjoo-park](https://github.com/ChangJoo-Park/)
 - [vue-router lazy loading](https://jsfiddle.net/gongzza/qgujfsy0/) - [@gongzza](https://github.com/gongzza/)
+- [vue-router re-rendering](https://jsfiddle.net/plpot/zy6o0nr1/) - [@usolkim](https://github.com/usolkim/)
