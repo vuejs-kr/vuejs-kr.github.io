@@ -45,4 +45,3 @@ Vue가 포함된 [JsFiddle](https://jsfiddle.net/changjoo_park/bs3Lx0Lq/)에서 
 - [vue-router lazy loading](https://jsfiddle.net/gongzza/qgujfsy0/) - [@gongzza](https://github.com/gongzza/)
 - [vue-router re-rendering](https://jsfiddle.net/plpot/zy6o0nr1/) - [@usolkim](https://github.com/usolkim/)
 - [vue-router 접근 권한 체크 예제](https://jsfiddle.net/plpot/sea55bw9/) - [@usolkim](https://github.com/usolkim/)
-- [vue-router 접근 권한 체크 예제 2](https://jsfiddle.net/plpot/fbppas5y/) - [@usolkim](https://github.com/usolkim/)
