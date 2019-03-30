@@ -7,4 +7,8 @@
   logo: ripple.png
   url: https://github.com/devjin0617/ripplectron
   description: Vuejs + Electron으로 제작한 가상화폐지갑
-  
+
+- name: vuerd
+  logo: vuerd.png
+  url: https://github.com/vuerd/vuerd-electron
+  description: Vuejs + Electron으로 제작한 ERD
