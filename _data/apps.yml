@@ -10,5 +10,5 @@
 
 - name: vuerd
   logo: vuerd.png
-  url: https://github.com/vuerd/vuerd-electron
-  description: Vuejs + Electron으로 제작한 ERD
+  url: https://marketplace.visualstudio.com/items?itemName=dineug.vuerd-vscode
+  description: Vuejs 제작한 vscode extension ERD Editor
