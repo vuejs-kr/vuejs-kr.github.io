@@ -7,8 +7,3 @@
   logo: ripple.png
   url: https://github.com/devjin0617/ripplectron
   description: Vuejs + Electron으로 제작한 가상화폐지갑
-
-- name: vuerd
-  logo: vuerd.png
-  url: https://marketplace.visualstudio.com/items?itemName=dineug.vuerd-vscode
-  description: Vuejs 제작한 vscode extension ERD Editor
